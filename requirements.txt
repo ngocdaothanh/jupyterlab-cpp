@@ -1,4 +1,1 @@
 jupyterlab
-matplotlib
-seaborn
-sympy

@@ -1,4 +1,4 @@
-# JupyterLab in Devbox
+# JupyterLab with C++ kernel in Devbox
 
 See:
 - https://jupyter.org
