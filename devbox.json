@@ -1,10 +1,11 @@
 {
-  "packages": ["python@latest"],
+  "packages": ["python@latest", "xeus-cling@latest"],
   "shell": {
     "init_hook": ". $VENV_DIR/bin/activate",
     "scripts": {
-      "install_requirements": "pip install -r requirements.txt",
-      "jupyterlab":           "jupyter lab --notebook-dir=./notebooks"
+      "install_python_packages": "pip install -r requirements.txt",
+      "install_xeus_cling_kernel": "jupyter kernelspec install --user .devbox/nix/profile/default/share/jupyter/kernels/xcpp17",
+      "jupyterlab": "jupyter lab --notebook-dir=./notebooks"
     }
   }
 }

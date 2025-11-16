@@ -61,6 +61,54 @@
           "store_path": "/nix/store/2mab9iiwhcqwk75qwvp3zv0bvbiaq6cs-python3-3.13.3"
         }
       }
+    },
+    "xeus-cling@latest": {
+      "last_modified": "2025-11-01T04:38:15Z",
+      "resolved": "github:NixOS/nixpkgs/f1e8ae508a9a467a9f51d29b8639e96db2b52c30#xeus-cling",
+      "source": "devbox-search",
+      "version": "0.15.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kc51q3ndadswlja8ji19xgrva3z9f2a1-xeus-cling-0.15.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kc51q3ndadswlja8ji19xgrva3z9f2a1-xeus-cling-0.15.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sid6338xh123v1gh4nqphmpa4599z2b5-xeus-cling-0.15.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sid6338xh123v1gh4nqphmpa4599z2b5-xeus-cling-0.15.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j4q4s68ffkicvhj026mrinw63n9h9gwx-xeus-cling-0.15.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j4q4s68ffkicvhj026mrinw63n9h9gwx-xeus-cling-0.15.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0hmcpba2cpxsw60xcy4xba2plznnnw9y-xeus-cling-0.15.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0hmcpba2cpxsw60xcy4xba2plznnnw9y-xeus-cling-0.15.3"
+        }
+      }
     }
   }
 }
